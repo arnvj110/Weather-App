@@ -1,0 +1,42 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+#heading{
+  font-size: 3rem;
+}
+.app{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  padding:20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px hsla(0, 0%, 0%, 0.5);
+}
+.weather-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#input{
+  padding:10px;
+  font-size: 1.5rem;
+}
+#submit{
+  font-size:1.5rem;
+  padding: 10px;
+  gap:10px;
+}
+.error {
+  color: red;
+}
